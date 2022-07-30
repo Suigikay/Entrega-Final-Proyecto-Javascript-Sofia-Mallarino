@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <title>Finalizar Compra</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+</head>
+
+<body>
+    <!-- START NAV -->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navStyle">
+        <div class=" container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.svg" alt="logo de chispa" width="100px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="">Cuidado Facial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Cuidado Corporal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Ofertas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAV -->
+    <header>
+        <div class="container">
+            <h1 class="text-center m-5">Con tu compra puedes elegir de las siguientes muestras gratis:</h1>
+            <hr>
+        </div>
+    </header>
+
+    <!------------------ PRODUCTOS RENDERIZADOS-------------- -->
+    <div id="productos">
+    </div>
+
+    <!------------------FIN DE PRODUCTOS RENDERIZADOS-------------- -->
+
+    <div class="d-flex justify-content-center">
+        <button type="submit" class="btn btForm btn-success btn-lg mt-4 btn-block" id="btnCompletarCompra">Completar
+            Compra</button>
+    </div>
+    <div class="mt-5">
+        <h3 class=" d-flex justify-content-center">Importante</h3>
+        <h4 class="h6 d-flex justify-content-center mt-5">
+            Las imagenes son ilustrativas y corresponden al producto de tamaño completo, las muestras que recibirás
+            vienen
+            en
+            presentación de 10ml.
+        </h4>
+    </div>
+
+
+
+    <!-- START FOOTER -->
+    <footer class=" text-lg-start text-muted">
+        <section class="container text-md-start mt-4 pt-5">
+            <div class="row d-flex flex-md-nowrap  text-center">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 d-flex justify-content-center">
+                    <a href="index.html">
+                        <img src="img/logo negro.svg" alt="Logo de chispa" class="w-75">
+                    </a>
+                </div>
+
+                <div class=" col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h4 class="text-uppercase fw-bold mb-4 fs-6">
+                        Encontranos
+                    </h4>
+                    <p>(+598) 099 123 456</p>
+                    <p>(+599) 099 456 123</p>
+                    <p>mail@mail.com</p>
+                </div>
+
+                <div class="col-md-3 col-lg-2 col-xl-2 ms-1 mx-auto mb-4">
+                    <h4 class="text-uppercase fw-bold mb-4 fs-6">
+                        Horario
+                    </h4>
+                    <p> Lunes a viernes</p>
+                    <p> 9 a 18 hs</p>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-reset">
+                    <h4 class=" text-uppercase fw-bold mb-4 fs-6">
+                        Seguínos
+                    </h4>
+                    <div class="">
+                        <a href="https://www.facebook.com/" target="_blank" class="text-decoration-none">
+                            <img src="img/fb.png" alt="Nuestro Facebook" width="45px">
+                        </a>
+
+                        <a href="https://www.instagram.com/" target="_blank" class="text-decoration-none">
+                            <img src="img/ig.png" alt="Nuestro Instagram" width="45px">
+                        </a>
+
+                        <a href="https://twitter.com/?lang=en" target="_blank" class="text-decoration-none">
+                            <img src="img/twitter.png" alt="Nuestro Twitter" width="45px">
+                        </a>
+
+                        <a href="https://www.linkedin.com/" target="_blank" class="text-decoration-none">
+                            <img src="img/linked in.png" alt="Nuestro LinkedIn" width="45px">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- END FOOTER -->
+
+    <!-- SCRIPTS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.20/dist/sweetalert2.all.min.js"></script>
+    <script src="./js/muestras.js" type="module"></script>
+</body>
+
+</html>

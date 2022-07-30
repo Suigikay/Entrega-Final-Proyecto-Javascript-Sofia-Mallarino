@@ -1,0 +1,38 @@
+[
+  {
+    "Id": "1",
+    "Nombre": "Contorno de ojos Purexpert",
+    "Desc": "Contorno de ojos hidratante y descongestivo",
+    "Img": "https://media-es.germainedecapuccini.es/catalog/product/cache/84c23dcd2491ef4648b6440d979ec11d/4/4/440051_Purexpert_Gel_Crema_No_Estres_01_1acd.jpg"
+  },
+  {
+    "Id": "2",
+    "Nombre": "Hidratante Hydracure",
+    "Desc": "Crema humectante para todo tipo de pieles",
+    "Img": "https://media-es.germainedecapuccini.es/catalog/product/cache/84c23dcd2491ef4648b6440d979ec11d/4/7/470218_Hydracure_Crema_Rica_Secas_01_a4c7.jpg"
+  },
+  {
+    "Id": "3",
+    "Nombre": "Gel Limpiador Purexpert",
+    "Desc": "Gel Limpiador para todo tipo de pieles",
+    "Img": "https://media-es.germainedecapuccini.es/catalog/product/cache/84c23dcd2491ef4648b6440d979ec11d/4/4/440139_Purexperrt_Crema_Matificante_Color_01_972a.jpg"
+  },
+  {
+    "Id": "4",
+    "Nombre": "Crema Real Royal Jelly",
+    "Desc": "Crema liviana para pieles grasas y mixtas",
+    "Img": "https://media-es.germainedecapuccini.es/catalog/product/cache/84c23dcd2491ef4648b6440d979ec11d/4/6/460011_Royal_Jelly_Crema_Extrem_01_e279.jpg"
+  },
+  {
+    "Id": "5",
+    "Nombre": "Máscara Anti-Estrés",
+    "Desc": "Máscara Descongestiva de arcilla rosa",
+    "Img": "https://media-es.germainedecapuccini.es/catalog/product/cache/84c23dcd2491ef4648b6440d979ec11d/7/6/760739_Options_Custom_Mask_AntiEstres_01_bccf.jpg"
+  },
+  {
+    "Id": "6",
+    "Nombre": "Crema Suprema Definición",
+    "Desc": "Crema tensora con retinoides y ácidos",
+    "Img": "https://media-es.germainedecapuccini.es/catalog/product/cache/84c23dcd2491ef4648b6440d979ec11d/4/2/420015_Lift_In_Crema_01_774f.jpg"
+  }
+]
